@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 
+/* Needed for complete page design */
 body{
   text-align: left;
   color: #333;
@@ -26,7 +27,9 @@ body{
   margin-left: 20px;
   float: left;
 }
+/* End of general page design */
 
+/*Complete top Nav*/
 .navtop ul{
   list-style-type: none;
   padding: 0;
@@ -52,7 +55,9 @@ body{
   background-color: #FFCC99;
   color: #000000;
 }
+/* End of top navigation */
 
+/* Left Side Navigation */
 nav.navleft{
   float: left;
 }
@@ -84,4 +89,4 @@ nav.navleft{
   color: white;
   display: inline-block;
 }
-
+/* end of side navigation */
