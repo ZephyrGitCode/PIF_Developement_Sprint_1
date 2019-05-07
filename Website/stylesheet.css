@@ -72,9 +72,13 @@ nav.navleft{
 }
 
 .cardsection{
-	float: right;
+	float: left;
 	padding: 8px;
 }
+
+@media (min-width: 600px) { .cardsection{float: right;}
+}
+
 
 .cardwrapper{
 	display: block;
