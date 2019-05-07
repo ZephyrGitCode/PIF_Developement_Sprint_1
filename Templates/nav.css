@@ -13,6 +13,11 @@ body{
   margin: auto;
 }
 
+.bodytext{
+	overflow: hidden;
+	display: block;
+}
+
 .navtop ul{
   list-style-type: none;
   padding: 0;
