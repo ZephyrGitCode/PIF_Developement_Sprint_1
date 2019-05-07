@@ -87,8 +87,8 @@ nav.navleft{
 
 div:hover.cardwrapper{
 	box-shadow: 0 7px 10px rgba(0,0,0,0.25);
-  transition-timing-function: ease, ease-out;
-  transition: .4s;
+  	transition-timing-function: ease, ease-out;
+  	transition: .4s;
 	transform:scale(1.05, 1.05);
 }
 
