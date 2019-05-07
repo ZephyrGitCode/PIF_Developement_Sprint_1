@@ -12,3 +12,29 @@ body{
   max-width: 1200px;
   margin: auto;
 }
+
+.navtop ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.navtop li a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.navtop li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.navtop li a.active {
+  background-color: #FFCC99;
+  color: #000000;
+}
