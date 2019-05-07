@@ -38,3 +38,36 @@ body{
   background-color: #FFCC99;
   color: #000000;
 }
+
+nav.navleft{
+  float: left;
+}
+
+.navleft ul {
+  list-style-type: none;
+  padding: 0px;
+  max-width: 200px;
+  background-color: #f1f1f1;
+  display: inline-block;
+}
+
+.navleft li a {
+  display: inline-block;
+  color: #000000;
+  padding: 10px 30px;
+  text-decoration: none;
+	width: 100%;
+}
+
+.navleft li a.active {
+  background-color: #FFCC99;
+  color: #000000;
+  display: inline-block;
+}
+
+.navleft li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  display: inline-block;
+}
+
