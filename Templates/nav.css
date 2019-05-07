@@ -18,6 +18,15 @@ body{
   display: block;
 }
 
+.content {
+	width: 650px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
 .navtop ul{
   list-style-type: none;
   padding: 0;
