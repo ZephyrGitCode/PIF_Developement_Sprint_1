@@ -76,9 +76,12 @@ nav.navleft{
 	padding: 8px;
 }
 
-@media (min-width: 600px) { .cardsection{float: right;}
+@media (min-width: 600px) { 
+	.cardsection{float: right;
+	}
+	.navtop li a{font-size: 120%;
+	}
 }
-
 
 .cardwrapper{
 	display: block;
