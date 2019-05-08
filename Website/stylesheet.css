@@ -54,7 +54,7 @@ h6 {
     font-weight: 100;
     color: #211545;
 }
-/* End gener formatting */
+/* End general formatting */
 
 /* Top Nav */
 .navtop ul{
@@ -128,7 +128,7 @@ nav.navleft{
 	margin: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.navtop li a{font-size: 20px;
 	}
  	.navtop li a{padding: 10px 30px;
