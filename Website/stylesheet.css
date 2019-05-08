@@ -1,3 +1,4 @@
+/* General formatting */
 * {
 	box-sizing: border-box;
 }
@@ -17,7 +18,9 @@ body{
 	margin: 20px 0 10px 20px;
 	float: left;
 }
+/* End gener formatting */
 
+/* Top Nav */
 .navtop ul{
 	list-style-type: none;
   	padding: 0;
@@ -43,7 +46,9 @@ body{
   	background-color: #FFCC99;
   	color: #000000;
 }
+/* End top nav */
 
+/* Left Nav */
 nav.navleft{
   	float: left;
 }
@@ -75,7 +80,9 @@ nav.navleft{
   	color: white;
   	display: inline-block;
 }
+/* End Left Nav */
 
+/* Information card */
 .cardsection{
 	float: left;
 	padding: 8px;
@@ -144,3 +151,4 @@ div:hover.cardwrapper{
 .active, .cardaction:hover {
  	background-color: #ccc;
 }
+/* End Card */
