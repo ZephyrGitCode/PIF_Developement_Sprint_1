@@ -64,12 +64,12 @@ h6 {
  	background-color: #f1f1f1;
 }
 
-.navtop li a {
+.navtop li a{
   	float: left;
   	display: block;
   	color: #000000;
   	text-align: center;
-  	padding: 10px 30px;
+  	padding: 5px 15px;
   	text-decoration: none;
 }
 
@@ -128,10 +128,10 @@ nav.navleft{
 	margin: 0;
 }
 
-@media (min-width: 600px) { 
-	.cardsection{float: right;
+@media (min-width: 600px) {
+	.navtop li a{font-size: 20px;
 	}
-	.navtop li a{font-size: 120%;
+ 	.navtop li a{padding: 10px 30px;
 	}
 }
 
