@@ -129,9 +129,14 @@ nav.navleft{
 }
 
 @media (min-width: 800px) {
-	.navtop li a{font-size: 20px;
+	.navtop li a{
+		font-size: 20px;
 	}
- 	.navtop li a{padding: 10px 30px;
+ 	.navtop li a{
+		padding: 10px 30px;
+	}
+	.cardsection{
+		float: right;
 	}
 }
 
