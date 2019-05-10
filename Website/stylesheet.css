@@ -17,6 +17,7 @@ body{
 .content {
 	margin: 20px 0 10px 20px;
 	float: left;
+	width: calc(60% - 2.08333rem);
 }
 
 h1 {
