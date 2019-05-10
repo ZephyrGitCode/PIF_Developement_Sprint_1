@@ -139,6 +139,9 @@ nav.navleft{
 	.cardsection{
 		float: right;
 	}
+	body{
+		font-size: 1.125rem;
+	}
 }
 
 .cardwrapper{
