@@ -108,6 +108,7 @@ nav.navleft{
 	padding: 10px 10px;
 	width: 100%;
   	text-decoration: none;
+	font-size: 12px;
 }
 
 .navleft li a.active {
@@ -140,6 +141,12 @@ nav.navleft{
  	.navtop li a{
 		padding: 10px 30px;
 	}
+	nav.navleft{
+		padding-right: 0px;
+	}
+	.navleft li a{
+		font-size: 16px;
+	}
 	.cardsection{
 		float: right;
 	}
@@ -150,9 +157,7 @@ nav.navleft{
 		width: calc(60% - 2.08333rem);
 		float: left;
 	}
-	nav.navleft{
-		padding-right: 0px;
-	}
+
 }
 
 .cardwrapper{
