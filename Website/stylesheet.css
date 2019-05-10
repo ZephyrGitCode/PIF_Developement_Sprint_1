@@ -22,7 +22,6 @@ body{
 
 .content {
 	margin: 20px 0 10px 20px;
-	float: left;
 }
 
 h1 {
@@ -93,8 +92,8 @@ h6 {
 /* Left Nav */
 nav.navleft{
   	float: left;
+	padding-right: 10px;
 }
-
 .navleft ul {
   	list-style-type: none;
   	padding: 0px;
@@ -149,6 +148,10 @@ nav.navleft{
 	}
 	.content{
 		width: calc(60% - 2.08333rem);
+		float: left;
+	}
+	nav.navleft{
+		padding-right: 0px;
 	}
 }
 
