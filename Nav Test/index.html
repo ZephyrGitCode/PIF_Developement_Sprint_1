@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="stylesheet.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<title>CDU Study Skills</title>
+	</head>
+
+	<body>
+		<div class="mainbody">
+			<div class="logo">
+			<img src="CDU logo.jpg" alt="CDU Logo">
+			</div>
+			<nav class='navtop'>
+				<ul>
+				<li><a href="#home">CDU Home</a></li>
+				<li><a href="#news">CDU News</a></li>
+				<li><a href="#contact">Staff Contact</a></li>
+				<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+
+			<h1>Referencing</h1>
+
+			<div class="bodytext">
+			<div class="dropdown">
+  			<button onclick="myFunction()" class="dropbtn">Study Skills Menu</button>
+  			<div id="myDropdown" class="dropdown-content">
+						<a href="#home">Study Skills Home</a>
+						<a href="#assignments">Academic Assignments</a>
+						<a href="#thinking">Crtical Thinking</a>
+						<a href="#reference">Referencing</a>
+						<a href="#exam">Exams</a>
+						<a href="#lectureandtutorial">Lectures and Tutorials</a>
+						<a href="#notes">Note Taking</a></li>
+						<a href="#research">Research and Reading</a>
+						<a href="#time">Time Management</a></li>
+						<a href="#videos">Videos & Interactives</a>
+      	</div>
+			</div>
+			</div>
+
+			<div class="content">
+				<h2>Introduction to Referencing</h2>
+				<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
+				<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
+				<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
+				<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
+			</div>
+			<div class="cardsection">
+
+				<div class="cardwrapper">
+					<h2 class="cardheader">Academic Integrity & Plagiarism</h2>
+					<img src="image.jpg" alt="culture image">
+					<div class="cardcontent">
+						<p>Learn about the morals of referencing and the consequences of failing to meet these requirements</p>
+					</div>
+					<a href="#culture" ><p class="cardaction">Further Information</p></a>
+				</div>
+
+				<div class="cardwrapper">
+					<h2 class="cardheader">Why Reference?</h2>
+					<img src="image.jpg" alt="culture image">
+					<div class="cardcontent">
+						<p>Learn the importance of referencing and how it relates to present copyright laws</p>
+					</div>
+					<a href="#culture" ><p class="cardaction">Further Information</p></a>
+				</div>
+
+				<div class="cardwrapper">
+					<h2 class="cardheader">Referencing Styles</h2>
+					<img src="image.jpg" alt="culture image">
+					<div class="cardcontent">
+						<p>Learn the different international referencing styles and Charles Darwin Univesity's referencing standards</p>
+					</div>
+					<a href="#culture" ><p class="cardaction">Further Information</p></a>
+				</div>
+
+				<div class="cardwrapper">
+					<h2 class="cardheader">Cultural Differences</h2>
+					<img src="image.jpg" alt="culture image">
+					<div class="cardcontent">
+						<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
+					</div>
+					<a href="#culture" ><p class="cardaction">Further Information</p></a>
+				</div>
+
+			</div>
+		</div>
+
+		<script>
+		function myFunction() {
+	  	document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+	// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+	  	if (!event.target.matches('.dropbtn')) {
+	    	var dropdowns = document.getElementsByClassName("dropdown-content");
+	    	var i;
+	    	for (i = 0; i < dropdowns.length; i++) {
+	      	var openDropdown = dropdowns[i];
+	      	if (openDropdown.classList.contains('show')) {
+	        	openDropdown.classList.remove('show');
+	      	}
+	    	}
+	  	}
+		}
+		</script>
+	</body>
+
+</html>
