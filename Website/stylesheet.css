@@ -91,9 +91,15 @@ h6 {
 
 /* Left Nav */
 nav.navleft{
+		width: 0;
   	float: left;
-	padding-right: 10px;
+		padding-right: 10px;
+		position:absolute;
+		overflow-y: hidden;
+		transition: 0.5s;
+		padding-top: 50px;
 }
+
 .navleft ul {
   	list-style-type: none;
   	padding: 0px;
@@ -107,13 +113,13 @@ nav.navleft{
 	color: #000000;
 	padding: 10px 10px;
 	width: 100%;
-  	text-decoration: none;
+  text-decoration: none;
 	font-size: 14px;
 }
 
 .navleft li a.active {
-  	background-color: #FFCC99;
-  	color: #000000;
+  background-color: #FFCC99;
+  color: #000000;
  	display: inline-block;
 }
 
@@ -141,12 +147,6 @@ nav.navleft{
  	.navtop li a{
 		padding: 10px 30px;
 	}
-	nav.navleft{
-		padding-right: 0px;
-	}
-	.navleft li a{
-		font-size: 16px;
-	}
 	.cardsection{
 		float: right;
 	}
@@ -155,9 +155,8 @@ nav.navleft{
 	}
 	.content{
 		width: calc(60% - 2.08333rem);
-		float: left;
+		float:left;
 	}
-
 }
 
 .cardwrapper{
