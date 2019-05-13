@@ -79,8 +79,9 @@ h6 {
 }
 
 .navtop li a:hover:not(.active) {
-  	background-color: #555;
-  	color: white;
+  	background-color: #ddd;
+  	color: black;
+	text-decoration: underline;
 }
 
 .navtop li a.active {
@@ -217,6 +218,7 @@ div:hover.cardwrapper{
 }
 
 .active, .cardaction:hover {
- 	background-color: #ccc;
+ 	background-color: #ddd;
+	text-decoration: underline;
 }
 /* End Card */
