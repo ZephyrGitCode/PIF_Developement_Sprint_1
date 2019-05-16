@@ -167,6 +167,9 @@ h6 {
  	.navtop li a{
 		padding: 10px 30px;
 	}
+	.navtop #about{
+		float: right;
+	}
 	nav.navleft{
 		padding-right: 0px;
 	}
