@@ -1,3 +1,4 @@
+/* Click Dropdown from W3schools*/
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   }
