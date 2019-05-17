@@ -9,14 +9,13 @@ body{
 	font-family: Calibri, sans-serif;
 }
 
-.mainbody{
+.container{
 	max-width: 1200px;
 	margin: auto;
 }
 
 .logo img{
 	width: 300px;
-	height: 150px;
 	margin-bottom: -20px;
 }
 
@@ -28,7 +27,7 @@ h1 {
 	font-weight: 900;
 	font-size: 3.5rem;
 	color: #211545;
-	margin: auto;
+	margin: 0px;
 }
 
 h2 {
@@ -92,6 +91,7 @@ h6 {
 
 /* Breadcrumbs */
 .breadnav{
+	
 }
 
 .breadcrumbs li a{
@@ -107,6 +107,13 @@ h6 {
 	list-style-type: none;
 }
 /* End Breadcrumbs */
+
+.left-side{
+	max-height: 500px;
+	width: 900px;
+	float: left;
+}
+
 
 /* Left Nav */
 .dropbtn {
@@ -183,7 +190,7 @@ h6 {
 		font-size: 1.125rem;
 	}
 	.content{
-		width: calc(60% - 2.08333rem);
+		width: calc(90% - 2.08333rem);
 		float: left;
 	}
 
@@ -219,7 +226,6 @@ div:hover.cardwrapper{
 	font-size: 0.900rem;
 	padding-left: 1rem;
 	margin: auto;
-	height: auto;
 }
 
 .cardaction{
