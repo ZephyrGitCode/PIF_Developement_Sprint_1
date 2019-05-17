@@ -100,5 +100,25 @@ h1 {
 	background-color: #ddd;
 	text-decoration: underline;}
 
+.selected{
+		background-color: #f1f1f1;
+		color: black;
+}
+
+.selected li{
+	list-style-type: none;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.selected a:hover{
+	background-color: #f1f1f1;
+	color: #00568e;
+}
+
+.show {
+	display: block;
+}
+
 .show {display: block;}
 /* End Left Nav */
