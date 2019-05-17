@@ -110,7 +110,6 @@ h6 {
 
 .left-side{
 	max-height: 500px;
-	width: 900px;
 	float: left;
 }
 
@@ -190,7 +189,6 @@ h6 {
 		font-size: 1.125rem;
 	}
 	.content{
-		width: calc(90% - 2.08333rem);
 		float: left;
 	}
 
