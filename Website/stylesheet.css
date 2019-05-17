@@ -150,6 +150,26 @@ h6 {
 	text-decoration: underline;
 }
 
+#ref{
+	background-color: #ddd;
+}
+
+.selected{
+		background-color: #f1f1f1;
+		color: black;
+}
+
+.selected li{
+	list-style-type: none;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.selected a:hover{
+	background-color: #f1f1f1;
+	color: #00568e;
+}
+
 .show {
 	display: block;
 }
