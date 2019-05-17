@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 74rem;
 	margin: auto;
 }
 
@@ -91,7 +91,7 @@ h6 {
 
 /* Breadcrumbs */
 .breadnav{
-	
+	padding-bottom: .75rem;
 }
 
 .breadcrumbs li a{
@@ -212,18 +212,22 @@ h6 {
 	}
 	.left-side{
 		float: left;
-		width:70%;
+		width:100%;
 	}
 
 }
 
 .cardwrapper{
 	display: block;
-	width: 262px;
-	height: auto;
+	width: 47%;
 	border-radius: 20px;
-	margin: 8px;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.25)
+	margin: 10px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+	float: left;
+}
+
+#cardimage{
+	width:100%;
 }
 
 div:hover.cardwrapper{
@@ -247,6 +251,7 @@ div:hover.cardwrapper{
 	font-size: 0.900rem;
 	padding-left: 1rem;
 	margin: auto;
+	height: 65px;
 }
 
 .cardaction{
@@ -259,6 +264,7 @@ div:hover.cardwrapper{
 	text-align: center;
 	border-radius: 0px 0px 20px 20px;
 	overflow: hidden;
+	margin: auto;
 }
 
 .cardwrapper a{
