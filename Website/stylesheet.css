@@ -239,20 +239,6 @@ h6 {
 	 	background-color: #555;
 	 	color: white;
 	}
-
-	.botcardwrapper{
-		display: block;
-		border-radius: 20px;
-		margin: 10px;
-		box-shadow: 0 2px 2px rgba(0,0,0,0.25);
-		width: 300px;
-	}
-	.botsection{
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		justify-content: center;
-	}
 	.mobiledropdown{
 		display: none;
 	}
@@ -269,7 +255,20 @@ h6 {
 	width:100%;
 }
 
-div:hover.cardwrapper{
+.botcardwrapper{
+	display: block;
+	border-radius: 20px;
+	margin: 20px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+	width: 20%;
+}
+.botsection{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div:hover.botcardwrapper{
 	box-shadow: 0 7px 10px rgba(0,0,0,0.25);
   	transition-timing-function: ease, ease-out;
   	transition: .4s;
