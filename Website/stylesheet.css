@@ -1,17 +1,25 @@
-/* General formatting */
+/* General styles */
 * {
 	box-sizing: border-box;
 }
 
 body{
+	max-width: 74rem;
 	text-align: left;
 	color: #333;
 	font-family: Calibri, sans-serif;
+	background-color: #eaeaea;
+	margin: auto;
+}
+
+.left-side{
+	width: 70%;
+	display: inline-block;
 }
 
 .container{
-	max-width: 74rem;
-	margin: auto;
+	background-color: white;
+	box-shadow: 0 7px 10px rgba(0,0,0,0.25);
 }
 
 .logo{
@@ -20,14 +28,14 @@ body{
 }
 
 .content {
-	margin: 20px 0 10px 0px;
+	margin: 10px 0px 0px 20px;
 }
 
 h1 {
 	font-weight: 900;
 	font-size: 3.5rem;
 	color: #211545;
-	margin: 0px;
+	margin: 10px 0px 0px 20px;
 }
 
 h2 {
@@ -63,7 +71,7 @@ h6 {
 /* Top Nav */
 .navtop ul{
 	list-style-type: none;
-  	padding: 0;
+	padding: 0;
  	overflow: hidden;
  	background-color: #f1f1f1;
 }
@@ -108,10 +116,6 @@ h6 {
 }
 /* End Breadcrumbs */
 
-.left-side{
-	float: left;
-}
-
 
 /* Left Nav */
 .dropbtn {
@@ -155,8 +159,8 @@ h6 {
 }
 
 .selected{
-		background-color: #f1f1f1;
-		color: black;
+	background-color: #f1f1f1;
+	color: black;
 }
 
 .selected li{
@@ -173,12 +177,15 @@ h6 {
 .show {
 	display: block;
 }
+
+.dropdown {
+	display: none;
+}
 /* End Left Nav */
 
 /* Information card */
 .cardsection{
 	float: left;
-	padding: 8px;
 }
 
 .cardsection h2{
@@ -201,29 +208,61 @@ h6 {
 	.navleft li a{
 		font-size: 16px;
 	}
-	.cardsection{
-		float: right;
-	}
 	body{
 		font-size: 1.2rem;
 	}
-	.content{
-		float: left;
-	}
-	.left-side{
-		float: left;
-		width:100%;
+	.cardsection{
+		padding: 8px;
+		display: inline-block;
+		width: 28%;
+		float: right;
 	}
 
+	.dropdown {
+		display: block;
+	 	list-style-type: none;
+	 	margin: 0px 10px 10px 0px;
+	 	padding: 0px;
+	 	max-width: 200px;
+	 	background-color: #f1f1f1;
+		float: left;
+	}
+
+	.dropdown a {
+	 	display: block;
+	 	color: #000;
+	 	padding: 8px 16px;
+	 	text-decoration: none;
+	}
+
+	.dropdown a:hover {
+	 	background-color: #555;
+	 	color: white;
+	}
+
+	.botcardwrapper{
+		display: block;
+		border-radius: 20px;
+		margin: 10px;
+		box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+		width: 300px;
+	}
+	.botsection{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+	}
+	.mobiledropdown{
+		display: none;
+	}
 }
 
 .cardwrapper{
 	display: block;
-	width: 47%;
 	border-radius: 20px;
 	margin: 10px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.25);
-	float: left;
 }
 
 #cardimage{
@@ -252,11 +291,12 @@ div:hover.cardwrapper{
 	padding-left: 1rem;
 	margin: auto;
 	height: 65px;
+	text-align: center;
 }
 
 .cardaction{
 	background-color: #f3f2f5;
-  	color: #444;
+	color: #444;
  	cursor: pointer;
  	padding: .6rem .6rem .6rem 0px;
  	width: 100%;
