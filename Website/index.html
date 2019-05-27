@@ -2,16 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link href="stylesheet.css" rel="stylesheet">
+		<link href="stylesheet1.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 		<title>CDU Study Skills</title>
 	</head>
-
 	<body>
 		<div class="container">
-			<div>
 			<img class="logo" src="CDUlogo.jpg" alt="CDU Logo">
-			</div>
 			<nav class='navtop'>
 				<ul>
 					<li><a href="#home">CDU Home</a></li>
@@ -20,24 +17,43 @@
 					<li><a href="#about" id="about">About</a></li>
 				</ul>
 			</nav>
-			
-			<div class="breadnav">
+
+			<div id="breadnav">
 				<ul class = "breadcrumbs">
 					<li><a href="#home">Study Skills Home</a></li>
 				</ul>
 			</div>
-			
+
 			<div class="left-side">
-				
 				<div class="dropdown">
-	  			<button onclick="myFunction()" class="dropbtn">&#9776; Study Skills Menu</button>
-	  			<div id="myDropdown" class="dropdown-content">
+				<nav>
+					<a href="#home">Study Skills Home</a>
+					<a href="#assignments">Academic Assignments</a>
+					<a href="#thinking">Crtical Thinking</a>
+					<a href="#reference" id="ref">Referencing</a>
+					<div id = "selected">
+						<li><a href="#academic">Academic integrity and plagiarism</a></li>
+						<li><a href="#whyreference">Why Reference?</a></li>
+						<li><a href="#referencingstyles">Referencing Styles</a></li>
+						<li><a href="#cultural">Cultural Differences</a></li>
+					</div>
+					<a href="#exam">Exams</a>
+					<a href="#lectureandtutorial">Lectures and Tutorials</a>
+					<a href="#notes">Note Taking</a>
+					<a href="#research">Research and Reading</a>
+					<a href="#time">Time Management</a>
+					<a href="#videos">Videos & Interactives</a>
+				</nav>
+				</div>
+				<div class="mobiledropdown">
+					<button onclick="myFunction()" class="dropbtn">&#9776; Study Skills Menu</button>
+					<div id="myDropdown" class="dropdown-content">
 						<nav>
 							<a href="#home">Study Skills Home</a>
 							<a href="#assignments">Academic Assignments</a>
 							<a href="#thinking">Crtical Thinking</a>
 							<a href="#reference" id="ref">Referencing</a>
-							<div class = "selected">
+							<div id = "selected">
 								<li><a href="#academic">Academic integrity and plagiarism</a></li>
 								<li><a href="#whyreference">Why Reference?</a></li>
 								<li><a href="#referencingstyles">Referencing Styles</a></li>
@@ -53,7 +69,7 @@
 					</div>
 				</div>
 				<h1>Referencing</h1>
-				<div class="content">
+				<div id="content">
 					<h2>Introduction to Referencing</h2>
 					<p>Learning at university may be different to learning at school or college.
 					Lecturers will not usually supply you with all the reading you need to
@@ -67,10 +83,15 @@
 					the ideas and words of another writer, artist, film maker etcetera as
 					you own without any form of acknowledgement. Plagiarism can easily be
 					avoided if you document the relevant sources which you have used.</p>
+					<p>If you would still like further information,
+					please contact staff from the Academic Language and
+					Learning Success Program (ALLSP), also known as A L L S P
+					or allsp, who run free workshops for internal and external
+					students on Harvard and APA styles.</p>
 				</div>
 			</div>
-			<div class="cardsection">
-				<div class="cardwrapper">
+			<div id="cardsection">
+				<div id="cardwrapper">
 					<h2 class="cardheader">Academic Integrity & Plagiarism</h2>
 					<img src="image.jpg" alt="culture image" id="cardimage">
 					<div class="cardcontent">
@@ -78,8 +99,7 @@
 					</div>
 					<a href="#culture" ><p class="cardaction">Further Information</p></a>
 				</div>
-
-				<div class="cardwrapper">
+				<div id="cardwrapper">
 					<h2 class="cardheader">Why Reference?</h2>
 					<img src="image.jpg" alt="culture image" id="cardimage">
 					<div class="cardcontent">
@@ -87,8 +107,9 @@
 					</div>
 					<a href="#culture" ><p class="cardaction">Further Information</p></a>
 				</div>
-
-				<div class="cardwrapper">
+			</div>
+			<div id="botsection">
+				<div id="botcardwrapper">
 					<h2 class="cardheader">Referencing Styles</h2>
 					<img src="image.jpg" alt="culture image" id="cardimage">
 					<div class="cardcontent">
@@ -96,15 +117,13 @@
 					</div>
 					<a href="#culture" ><p class="cardaction">Further Information</p></a>
 				</div>
-
-				<div class="cardwrapper">
+				<div id="botcardwrapper">
 					<h2 class="cardheader">Cultural Differences</h2>
 					<img src="image.jpg" alt="culture image" id="cardimage">
 					<div class="cardcontent">
 						<p>Learn how diverse cultural backgrounds can lead to incorrect acedemic acknowledgement of work</p>
 					</div>
-					<a href="#culture" ><p class="cardaction">Further Information</p></a>
-				</div>
+				<a href="#culture" ><p class="cardaction">Further Information</p></a>
 			</div>
 		</div>
 		<script src="nav.js"></script>
