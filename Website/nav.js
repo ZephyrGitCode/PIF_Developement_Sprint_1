@@ -1,18 +1,16 @@
-/* Click Dropdown from W3schools*/
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+var activeDropdown = {};
+document.getElementById('content').addEventListener('click',function(){
+  for (var i = 0;i<this.children.length;i++){
+    if (this.children[i].classList.contains('drop-selection')){
+        activeDropdown.id = this.id;
+        activeDropdown.element = this.children[i];
+        this.children[i].style.visibility = 'visible';
+        }
   }
+});
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+window.onclick = function(event){
+  if (!event.target.classList.contains('dropbtn')){
+    activeDropdown.element.style.visibility = 'hidden';
   }
 }
