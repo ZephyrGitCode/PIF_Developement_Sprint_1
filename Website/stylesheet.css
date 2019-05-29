@@ -27,7 +27,7 @@ body{
 }
 
 .content {
-	margin: 10px 50px 0px 225px;
+	margin: 10px 20px 0px 20px;
 }
 
 h1 {
@@ -226,6 +226,7 @@ h6 {
 	 	background-color: #f1f1f1;
 		float: left;
 		margin-bottom: 700px;
+		margin-right: 20px;
 	}
 
 	.dropdown a {
