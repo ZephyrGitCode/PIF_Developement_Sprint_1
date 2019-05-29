@@ -6,7 +6,7 @@
 body{
 	max-width: 74rem;
 	text-align: left;
-	color: #333;
+	color: black;
 	font-family: Calibri, sans-serif;
 	background-color: #eaeaea;
 	margin: auto;
@@ -33,37 +33,37 @@ body{
 h1 {
 	font-weight: 900;
 	font-size: 3.5rem;
-	color: #211545;
+	color: black;
 	margin: 10px 0 0 0;
 }
 
 h2 {
 	font-weight: 100;
 	font-size:2.5rem;
-	color: #211545;
+	color: black;
 	margin: auto;
 }
 
 h3 {
 	font-weight: 100;
 	font-size: 1.25rem;
-	color: #211545;
+	color: black;
 }
 
 h4 {
 	font-weight: 100;
 	font-size: 1rem;
-	color: #211545;
+	color: black;
 }
 
 h5 {
 	font-weight: 100;
-	color: #211545;
+	color: black;
 }
 
 h6 {
 	font-weight: 100;
-	color: #211545;
+	color: black;
 }
 /* End general formatting */
 
@@ -72,13 +72,13 @@ h6 {
 	list-style-type: none;
 	padding: 0;
  	overflow: hidden;
- 	background-color: #f1f1f1;
+ 	background-color: #9A4EAE;
 }
 
 .navtop li a{
   	float: left;
   	display: block;
-  	color: #000000;
+  	color: white;
   	text-align: center;
   	padding: 5px 15px;
   	text-decoration: none;
@@ -102,7 +102,7 @@ h6 {
 }
 
 .breadcrumbs li a{
-	color: grey;
+	color: black;
 	text-decoration: none;
 }
 
@@ -118,8 +118,8 @@ h6 {
 
 /* Left Nav */
 .dropbtn {
-	background-color: #f1f1f1;
-	color: #000000;
+	background-color: #056571;
+	color: white;
 	padding: 14px;
 	font-size: 16px;
 	border: none;
@@ -127,7 +127,7 @@ h6 {
 }
 
 .dropbtn:hover {
-	background-color: #000000;
+	background-color: #9A4EAE;
 	color:white;
 }
 
@@ -157,11 +157,16 @@ h6 {
 	left: 0;
 	margin-top: 1px;
 	min-width: 90%;
-	background-color: #f1f1f1;
+	background-color: #056571;
 }
+
+.drop li a {
+	color: black;
+}
+
 .drop a {
 	display: block;
-	color: #000;
+	color: white;
 	padding: 8px 16px;
 	text-decoration: none;
 }
@@ -172,13 +177,13 @@ h6 {
 }
 
 .drop a:hover {
-	background-color: #555;
+	background-color: #9A4EAE;
 	color: white;
 }
 
 #ref{
-	background-color: #ddd;
-	color:black;
+	background-color:#9A4EAE;
+	color:white;
 }
 
 .selected{
@@ -193,8 +198,8 @@ h6 {
 }
 
 .selected a:hover{
-	background-color: #f1f1f1;
-	color: #00568e;
+	background-color: #9A4EAE;
+	color: white;
 	text-decoration: underline;
 }
 
@@ -248,7 +253,7 @@ h6 {
 	 	margin: 0px 10px 10px 0px;
 	 	padding: 0px;
 	 	max-width: 200px;
-	 	background-color: #f1f1f1;
+	 	background-color: #056571;
 		float: left;
 		margin-bottom: 700px;
 		margin-right: 20px;
@@ -256,14 +261,23 @@ h6 {
 
 	.dropdown a {
 	 	display: block;
-	 	color: #000;
+	 	color: white;
 	 	padding: 8px 16px;
 	 	text-decoration: none;
 	}
 
 	.dropdown a:hover {
-	 	background-color: #555;
+	 	background-color: #9A4EAE;
 	 	color: white;
+	}
+	
+	.dropdown li a{
+		color: black;
+	}
+
+	.dropdown li a:hover{
+		background-color: #9A4EAE;
+		color: white;
 	}
 	.mobiledropdown{
 		display: none;
@@ -305,8 +319,8 @@ div:hover.botcardwrapper{
 }
 
 .cardheader{
-	background-color: #f3f2f5;
-	color: #056571;
+	background-color: #9A4EAE;
+	color: white;
 	font-size: 1.25rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -323,8 +337,8 @@ div:hover.botcardwrapper{
 }
 
 .cardaction{
-	background-color: #f3f2f5;
-	color: #444;
+	background-color: #9A4EAE;
+	color: white;
  	cursor: pointer;
  	padding: .6rem .6rem .6rem 0px;
  	width: 100%;
@@ -340,7 +354,8 @@ div:hover.botcardwrapper{
 }
 
 .active, .cardaction:hover {
- 	background-color: #ddd;
+ 	background-color: #056571;
 	text-decoration: underline;
+	color: white;
 }
 /* End Card */
