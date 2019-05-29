@@ -126,35 +126,59 @@ h6 {
 	cursor: pointer;
 }
 
-.dropbtn:hover:not(.active) {
+.dropbtn:hover {
 	background-color: #000000;
 	color:white;
 }
 
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+.drop {
+	display: inline-block;
+	position: relative;
+	font-size: 16px;
+	font-family: "Calibri";
 }
 
-.dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
+.mobiledropdown {
 	display: block;
+	list-style-type: none;
+	margin: 0px 10px 10px 0px;
+	padding: 0px;
+	max-width: 200px;
+	background-color: #f1f1f1;
+	float: left;
 }
 
-.dropdown a:hover {
-	background-color: #ddd;
-	text-decoration: underline;
+.drop-selection {
+	visibility: hidden;
+	padding: 0;
+	list-style: none;
+	box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+	position: absolute;
+	left: 0;
+	margin-top: 1px;
+	min-width: 90%;
+	background-color: #f1f1f1;
+}
+.drop a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.drop li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.drop a:hover {
+	background-color: #555;
+	color: white;
 }
 
 #ref{
 	background-color: #ddd;
+	color:black;
 }
 
 .selected{
@@ -171,6 +195,7 @@ h6 {
 .selected a:hover{
 	background-color: #f1f1f1;
 	color: #00568e;
+	text-decoration: underline;
 }
 
 .show {
