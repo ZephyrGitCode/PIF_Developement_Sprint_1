@@ -387,3 +387,36 @@ footer {
 }
 
 /* End Card */
+/* Dark mode */
+container.dark-mode {
+}
+
+container.light-mode {
+}
+
+.dark-mode {
+  background-color: #69778e;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-button{
+	float:right;
+	margin-right: 20px;
+	background-color: #201644;
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dark-button:hover {
+	background-color: purple;
+	color: white;
+}
+/* End dark mode */
