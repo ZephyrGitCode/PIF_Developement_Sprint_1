@@ -388,14 +388,12 @@ footer {
 
 /* End Card */
 /* Dark mode */
-container.dark-mode {
-}
-
-container.light-mode {
-}
-
 .dark-mode {
   background-color: #69778e;
+  color: white;
+}
+
+.dark-mode h1, .dark-mode h2{
   color: white;
 }
 
