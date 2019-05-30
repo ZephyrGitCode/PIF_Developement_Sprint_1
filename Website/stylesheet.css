@@ -200,7 +200,7 @@ h6 {
 
 .selected li{
 	list-style-type: none;
-	padding-left: 10px;
+	padding-left: 0 0 0 10px;
 	font-size: 14px;
 }
 
