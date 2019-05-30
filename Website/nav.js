@@ -14,3 +14,11 @@ window.onclick = function(event){
     activeDropdown.element.style.visibility = 'hidden';
   }
 }
+
+//Original code found at "https://codepen.io/HarlemSquirrel/pen/NdMebZ" By Kevin McCormack
+function toggleDarkLight() {
+  var body = document.getElementById("container");
+  var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+}
+
