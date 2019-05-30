@@ -393,7 +393,7 @@ footer {
   color: white;
 }
 
-.dark-mode h1, .dark-mode h2{
+.dark-mode h1, .dark-mode h2, .dark-mode .breadcrumbs li a{
   color: white;
 }
 
