@@ -72,7 +72,7 @@ h6 {
 	list-style-type: none;
 	padding: 0;
  	overflow: hidden;
- 	background-color: #9A4EAE;
+ 	background-color: #201644;
 }
 
 .navtop li a{
@@ -85,8 +85,8 @@ h6 {
 }
 
 .navtop li a:hover:not(.active) {
-  	background-color: #ddd;
-  	color: black;
+  	background-color: purple;
+  	color: white;
 	text-decoration: underline;
 }
 
@@ -118,7 +118,7 @@ h6 {
 
 /* Left Nav */
 .dropbtn {
-	background-color: #056571;
+	background-color: #201644;
 	color: white;
 	padding: 14px;
 	font-size: 16px;
@@ -127,8 +127,8 @@ h6 {
 }
 
 .dropbtn:hover {
-	background-color: #9A4EAE;
-	color:white;
+	background-color: #ddd;
+	color: black;
 }
 
 .drop {
@@ -144,7 +144,7 @@ h6 {
 	margin: 0px 10px 10px 0px;
 	padding: 0px;
 	max-width: 200px;
-	background-color: #f1f1f1;
+	background-color: #201644;
 	float: left;
 }
 
@@ -157,7 +157,7 @@ h6 {
 	left: 0;
 	margin-top: 1px;
 	min-width: 90%;
-	background-color: #056571;
+	background-color: #201644;
 }
 
 .drop li a {
@@ -177,12 +177,12 @@ h6 {
 }
 
 .drop a:hover {
-	background-color: #9A4EAE;
+	background-color: purple;
 	color: white;
 }
 
 #ref{
-	background-color:#9A4EAE;
+	background-color: purple;
 	color:white;
 }
 
@@ -198,7 +198,7 @@ h6 {
 }
 
 .selected a:hover{
-	background-color: #9A4EAE;
+	background-color: purple;
 	color: white;
 	text-decoration: underline;
 }
@@ -253,7 +253,7 @@ h6 {
 	 	margin: 0px 10px 10px 0px;
 	 	padding: 0px;
 	 	max-width: 200px;
-	 	background-color: #056571;
+	 	background-color: #201644;
 		float: left;
 		margin-bottom: 700px;
 		margin-right: 20px;
@@ -267,7 +267,7 @@ h6 {
 	}
 
 	.dropdown a:hover {
-	 	background-color: #9A4EAE;
+	 	background-color: purple;
 	 	color: white;
 	}
 	
@@ -276,7 +276,7 @@ h6 {
 	}
 
 	.dropdown li a:hover{
-		background-color: #9A4EAE;
+		background-color: purple;
 		color: white;
 	}
 	.mobiledropdown{
@@ -319,7 +319,7 @@ div:hover.botcardwrapper{
 }
 
 .cardheader{
-	background-color: #9A4EAE;
+	background-color: #201644;
 	color: white;
 	font-size: 1.25rem;
 	padding-top: 1rem;
@@ -337,7 +337,7 @@ div:hover.botcardwrapper{
 }
 
 .cardaction{
-	background-color: #9A4EAE;
+	background-color: #201644;
 	color: white;
  	cursor: pointer;
  	padding: .6rem .6rem .6rem 0px;
@@ -354,7 +354,7 @@ div:hover.botcardwrapper{
 }
 
 .active, .cardaction:hover {
- 	background-color: #056571;
+ 	background-color: purple;
 	text-decoration: underline;
 	color: white;
 }
