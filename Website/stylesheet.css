@@ -365,4 +365,24 @@ div:hover.botcardwrapper{
 	text-decoration: underline;
 	color: white;
 }
+
+/* Footer */
+footer {
+	padding: 0px 20px 0px 20px;
+	width: 100%;
+ 	background-color: #201644;
+	color: white;
+	text-align: center;
+	display: inline-flex;
+  	justify-content: center;
+}
+
+#footerleft {
+	padding: 10px 20px 10px 20px;
+}
+
+#footerright {
+	padding: 10px 20px 10px 20px;
+}
+
 /* End Card */
