@@ -189,6 +189,8 @@ h6 {
 .selected{
 	background-color: #f1f1f1;
 	color: black;
+	padding-left: 0;
+	margin-top: 0;
 }
 
 .selected li{
